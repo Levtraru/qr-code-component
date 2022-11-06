@@ -20,7 +20,7 @@ body {
   height: 100vh;
 }
 
-#container {
+.container {
   background-color: var(--white);
   display: grid;
   place-items: center;
@@ -28,6 +28,7 @@ body {
   padding: .8em;
   border-radius: 1em;
   width: 260px;
+  margin: 20px;
 }
 
 img {
@@ -36,19 +37,19 @@ img {
   border-radius: .5em;
 }
 
-p {
+p, h1 {
   text-align: center;
   font-size: 15px;
 }
 
-#title {
+h1 {
   font-weight: bold;
   color: var(--dark-blue);
   font-size: 1.3rem;
   margin: 1em 0;
 }
 
-#description {
+.description {
   color: var(--grayish-blue);
   margin-bottom: 1em;
 }
